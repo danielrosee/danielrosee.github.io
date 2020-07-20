@@ -1,0 +1,266 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Ubuntu Bold', sans-serif;
+}
+
+
+.header { 
+background: rgba(78,189,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+margin: 0px;
+}
+
+.animated {
+	opacity: 0;
+}
+
+.text { 
+font-family: 'Open Sans', sans-serif;
+margin-bottom: 45px;
+width: 400px;
+align-items: center;
+}
+
+header {
+	color: #fff;
+}
+
+.live {
+	margin-bottom: 72px;
+	margin-top: 114px;
+	width: 641px;
+	height: 641px;
+	align-items: center;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1171px;
+}
+
+
+.logo {
+	margin-top: 66px;
+	margin-bottom: 147px;
+}
+
+.wrapper {
+	display: flex;
+
+}
+
+.little2 {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+span {
+	font-size:59px;
+}
+.little1 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.title {
+	font-size: 37px;
+	height: 145px;
+	margin-top: 0px;	
+}
+	
+.btn {
+	background: #ffd429;
+	font-family: Montserrat Black, sans-serif;
+	color: #2e2a1b;
+	width: 222px;
+	padding: 20px;
+	margin-bottom: 213px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none; 
+	display:inline-block
+}
+
+.btn:hover {
+	background: #ffdd54;
+}
+
+#title {	
+	width: 575px;
+}
+
+.section-title {
+	font-size: 30px;
+}
+
+.benefit {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.skill-text {
+	font-family: 'Ubuntu Regular', sans-serif;
+}
+
+.skill-title {
+	font-size: 19px;
+}
+.skill {
+	width: 300px;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 104px;
+	padding-bottom: 104px;
+}
+
+.btn-button {
+	background: #ffd429;
+	font-family: Montserrat Black, sans-serif;
+	color: #2e2a1b;
+	width: 343px;
+	height: 56px;
+	padding: 20px;
+	font-size: 15px;
+	border: 0px;
+	text-align: center;
+	text-decoration: none; 
+	display:inline-block
+}
+
+input {
+	font-family: 'Ubuntu Regular', sans-serif;
+	width: 343px;
+	height: 48px;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.place {
+	margin-top: 11px;
+}
+
+.form {
+	display:flex; 
+	flex-direction: column; 
+	align-items: center;
+	width: 343px;
+	margin-left: 414px;
+}
+.benefit {
+	text-align: center;
+}
+
+.mail {
+	text-align: center;
+}
+footer {
+	background: #164d7a;
+}
+.footer {
+	padding-top: 65px;
+	padding-bottom: 66px;
+}
+
+.footer-text {
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans Regular', sans-serif;
+}
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.btn {
+		margin-bottom: 113px;
+	}
+	.live {
+		width: 441px;
+		height: 441px;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+    width: 100%;
+    margin-bottom: 30px;
+    }
+    .form {
+    	margin-left: 33%;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	#title {
+		width: 100%;
+	}
+	.text {
+		width: 100%;
+	}
+	.wrapper {
+	   flex-direction: column;
+	}
+	.live {
+		display: block;
+		margin-top: 0px;
+		width: 641px;
+		height: 641px;
+	}
+	.form {
+		margin-left: 26%;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.live {
+		height: 541px;
+		width: 541px;
+	}
+	.form {
+    margin-left: 19%;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.title {
+		margin-bottom: 250px;
+	}
+	.live {
+		height: 341px;
+		width: 341px;
+	}
+	.form {
+		width-left: 50%;
+	}
+}	
